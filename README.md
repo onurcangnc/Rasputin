@@ -1,4 +1,7 @@
-# Bumble Auto-Swipe Bot
+# Rasputin - Next Generation Bumble Auto-Swipe Bot
+
+![Banner Image](./assets/banner.png)
+
 
 This Python project automates interactions with the Bumble dating app, specifically designed to filter profiles based on location and perform swipe actions. The bot leverages the Selenium library for web automation and uses keyboard shortcuts for pausing, resuming, and terminating the bot.
 
@@ -38,7 +41,7 @@ Before you begin, ensure you have met the following requirements:
     - Place the `chromedriver.exe` file in a directory included in your system's PATH, or specify its path in the script.
 
 4. **Configure Chrome User Data**:
-    - Replace `"C:\\path\\to\\your\\chrome\\profile"` in the script with the path to your Chrome user profile. This allows the bot to use an existing logged-in session.
+    - Replace `C:\\path\\to\\your\\chrome\\profile` in the script with the path to your Chrome user profile. This allows the bot to use an existing logged-in session. I recommend you that do not change the default location
 
 ## Usage
 
@@ -63,10 +66,19 @@ Before you begin, ensure you have met the following requirements:
 
 While the bot is running, you'll see output like this in your console:
 
+## Demonstration Video
+
+[![Watch the video](https://img.youtube.com/vi/Aue75rB8ukc/maxresdefault.jpg)](https://www.youtube.com/watch?v=Aue75rB8ukc)
+
+
 ```bash
 Status: Sağ kaydırıldı, Name: John, Age: 28, Location: Bursa
 Status: Sola kaydırıldı, Name: Jane, Age: 24, Location: Istanbul
 ```
+
+Here's what the bot's output might look like in your console:
+
+![Example Output](./assets/2.png)
 
 ## Requirements
 
@@ -99,6 +111,6 @@ colorama==0.4.6
 
 ## Disclaimer
 
-- This project is for educational purposes only. Use it responsibly and at your own risk. The developer is not responsible for any misuse or consequences that may arise from using this script.
+- This project is for educational purposes only. Use it responsibly and at your own risk. The developer is not responsible for any misuse or consequences that may arise from using this script. I will not be responsible for data that you collected. Furthermore, do not use my tool for your abusement purposes. The script does not stores real time data it just process it for name, age, location and prompts the screen. DO NOT USE DATA FOR BAD PURPOSES.
 
 
