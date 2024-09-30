@@ -22,8 +22,8 @@ logging.basicConfig(filename='bumble_bot.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Telegram bot token ve chat ID bilgileri
-TELEGRAM_TOKEN = '7519352943:AAFfSW4XAWuKiHpWLKs85jDC6eYypiWy3xs'
-CHAT_ID = '649226694'  # Sizin chat ID'niz
+TELEGRAM_TOKEN = '' # Botfather tokeni
+CHAT_ID = ''  # Sizin chat ID'niz
 
 bot = Bot(token=TELEGRAM_TOKEN)
 
